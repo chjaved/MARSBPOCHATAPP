@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
-      NEXT_PUBLIC_ZEGO_APP_ID: "2017108866", // Change this to a string
-      NEXT_PUBLIC_ZEGO_SERVER_ID: "478dae90644e0d69b9838aef2662d202",
+      NEXT_PUBLIC_ZEGO_APP_ID: process.env.ZEGOCLOUD_APP_ID,
+      NEXT_PUBLIC_ZEGO_SERVER_ID: process.env.ZEGOCLOUD_SERVER_ID,
     },
     reactStrictMode: false,
     images: {
