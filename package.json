@@ -1,7 +1,10 @@
 {
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+     "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@prisma/client": "^4.14.0",
